@@ -53,3 +53,7 @@ git commit -m "备注信息"
 git push origin "分支名"
 ```
 
+> git push 总是443怎么办？尝试更改url:
+>
+> - 执行：`git remote -v`，查看远程仓库地址，如果是以`https`开头的，就到远程仓库中查看以`git` 开头的仓库地址，复制该地址，然后在本地执行`git remote set-url origin git@git...`，然后就可以正常push了
+
