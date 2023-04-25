@@ -1,6 +1,10 @@
 token：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
 
-# 一、利用Git连接远程仓库步骤及常见问题
+# 一、基础
+
+![Image](images/Image.png)
+
+# 二、利用Git连接远程仓库步骤及常见问题
 
 ## 1.先创建一个文件夹，名字为远程仓库的名称
 
